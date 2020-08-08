@@ -6,9 +6,10 @@ import LandingImg from '../../assets/images/landing.svg'
 import StudyIcon from '../../assets/images/icons/study.svg'
 import GiveClassesIcon from '../../assets/images/icons/give-classes.svg'
 import PurpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
+import {Link} from 'react-router-dom'
 import './styles.css'
 
-export default function Lanfing(){
+export default function Landing(){
     return(
         <div id="page-landing">
             <div id="page-landing-content" className="container">
@@ -21,15 +22,15 @@ export default function Lanfing(){
 
                 <div className="buttons-container">
                     
-                    <a href="" className="study">
+                    <Link to="/study" className="study">
                         <img src={StudyIcon} alt="Estudar"/>
                         Estudar
-                    </a>
+                    </Link>
 
-                    <a href="" className="give-classes">
+                    <Link to="/give-classes" className="give-classes">
                         <img src={GiveClassesIcon} alt="Dar aulas"/>
                         Dar aulas
-                    </a>
+                    </Link>
                 </div>
 
                 <span className="total-connections">
