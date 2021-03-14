@@ -1,5 +1,7 @@
 # Proffy
 
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+
 Plataforma para conectar alunos e professores
 
 ## Começando
